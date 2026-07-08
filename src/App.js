@@ -1,7 +1,13 @@
 import React from "react";
 
+import Header from "./components/Header";
+
 const App = () => {
-  return <p>Todoie App</p>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 };
 
 export default App;
